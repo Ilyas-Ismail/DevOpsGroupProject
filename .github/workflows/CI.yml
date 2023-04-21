@@ -12,7 +12,7 @@ on:
 jobs:
     build:
         name: Call Azure Pipeline
-        runs-on: DEFAULT
+        runs-on: self-hosted
         steps:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
